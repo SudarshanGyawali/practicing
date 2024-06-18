@@ -19,9 +19,11 @@ b = int(a2) #makes the decimal number into an integer for reliable calculation
 
 pi_squared = b*b
 
-sol_txt = str(pi_squared)
+sol_txt = str(pi_squared) #convert the number back to string to write into a file
 
+#print(sol_txt[n]) #get the desired digit from any position, make sure that arrays start from 0 in programming language
 # print(sol_txt)
 
 new_file = open("pi_squared.txt", "x")
 file_answer = new_file.write(sol_txt)
+
