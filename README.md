@@ -1,0 +1,1 @@
+allows for operation on numbers with large digits but have decimal points. like pi, e, etc. Use case: you can use web to find the nth digit of pi but what about nth digit of pi-squared or sth similar. Code is not perfect as it is made by an amateur.
